@@ -1,8 +1,8 @@
-from theme1_d import popolam
+from theme1.theme1_e import mark
 
 if __name__ == '__main__':
-    amount_peoples = int(input())
-    amount_apples = int(input())
+    speed = int(input())
+    time = int(input())
 
-    d = popolam(amount_peoples, amount_apples)
-    print(d)
+    a = mark(speed, time)
+    print(a)
