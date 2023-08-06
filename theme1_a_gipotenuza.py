@@ -15,10 +15,3 @@ def calc_gipot(side1, side2):
     gipot = Gipotenuza(side1, side2)
 
     return gipot.calculate_gipotenuza()
-
-
-side1 = int(input())
-side2 = int(input())
-
-g = calc_gipot(side1, side2)
-print(g)
