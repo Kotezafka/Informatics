@@ -1,6 +1,8 @@
-from theme1_a_gipotenuza import calc_gipot
-from theme1_b import line_output
+from theme1_c import popolam
 
 if __name__ == '__main__':
-    number = int(input())
-    line_output(number)
+    amount_peoples = int(input())
+    amount_apples = int(input())
+
+d = popolam(amount_peoples, amount_apples)
+print(d)

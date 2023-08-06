@@ -15,3 +15,4 @@ def calc_gipot(side1, side2):
     gipot = Gipotenuza(side1, side2)
 
     return gipot.calculate_gipotenuza()
+
