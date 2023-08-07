@@ -1,7 +1,7 @@
-from theme1.theme1_h import calculate_the_number_of_tens
+from theme1.theme1_i import calculate_sum_of_a_three_digit_number
 
 if __name__ == '__main__':
     number = int(input())
 
-    number_of_tens = calculate_the_number_of_tens(number)
-    print(number_of_tens)
+    sum_of_three_digits = calculate_sum_of_a_three_digit_number(number)
+    print(sum_of_three_digits)
