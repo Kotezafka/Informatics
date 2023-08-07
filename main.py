@@ -1,8 +1,7 @@
-from theme1.theme1_e import mark
+from theme1.theme1_f import last_digit
 
 if __name__ == '__main__':
-    speed = int(input())
-    time = int(input())
+    number = int(input())
 
-    a = mark(speed, time)
+    a = last_digit(number)
     print(a)
