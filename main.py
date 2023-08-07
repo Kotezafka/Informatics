@@ -1,7 +1,7 @@
-from theme1.theme1_f import calculate_last_of_digit
+from theme1.theme1_g import calculate_the_number_of_tens
 
 if __name__ == '__main__':
     number = int(input())
 
-    a = calculate_last_of_digit(number)
+    a = calculate_the_number_of_tens(number)
     print(a)
