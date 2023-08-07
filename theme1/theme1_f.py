@@ -7,13 +7,7 @@ class Number:
         return a
 
 
-def last_digit(number):
-    numb = Number(number)
+def calculate_last_of_digit(number):
+    num = Number(number)
 
-    return numb.remainder_of_the_division()
-
-
-number = int(input())
-
-a = last_digit(number)
-print(a)
+    return num.remainder_of_the_division()
