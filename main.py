@@ -1,6 +1,7 @@
-from theme1.theme1_k import calculate_time_on_the_clock
+from theme1.theme1_m import calculate_value_exchange
 
 if __name__ == '__main__':
-    number = int(input())
+    number1 = int(input())
+    number2 = int(input())
 
-    calculate_time_on_the_clock(number)
+    calculate_value_exchange(number1, number2)
