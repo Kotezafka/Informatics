@@ -1,7 +1,8 @@
-from theme1.theme1_m import calculate_value_exchange
+from theme1.theme1_o import calculate_purchase_price
 
 if __name__ == '__main__':
-    number1 = int(input())
-    number2 = int(input())
+    rubles = int(input())
+    pennies = int(input())
+    quantity = int(input())
 
-    calculate_value_exchange(number1, number2)
+    calculate_purchase_price(rubles, pennies, quantity)
