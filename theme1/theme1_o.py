@@ -1,4 +1,4 @@
-class Price:
+class Pie:
     def __init__(self, rubles, pennies, quantity):
         self.rubles = rubles
         self.pennies = pennies
@@ -16,7 +16,7 @@ class Price:
 
 
 def calculate_purchase_price(rubles, pennies, quantity):
-    num = Price(rubles, pennies, quantity)
+    num = Pie(rubles, pennies, quantity)
 
     num.purchase_price()
 
