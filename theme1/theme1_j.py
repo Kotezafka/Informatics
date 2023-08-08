@@ -14,9 +14,3 @@ def calculate_next_even(number):
     num = Number(number)
 
     return num.next_even()
-
-
-number = int(input())
-
-even_number = calculate_next_even(number)
-print(even_number)

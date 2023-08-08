@@ -1,7 +1,6 @@
-from theme1.theme1_j import calculate_next_even
+from theme1.theme1_k import calculate_time_on_the_clock
 
 if __name__ == '__main__':
     number = int(input())
 
-    even_number = calculate_next_even(number)
-    print(even_number)
+    calculate_time_on_the_clock(number)
