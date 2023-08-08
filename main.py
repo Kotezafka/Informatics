@@ -1,7 +1,7 @@
-from theme1.theme1_i import calculate_sum_of_a_three_digit_number
+from theme1.theme1_j import calculate_next_even
 
 if __name__ == '__main__':
     number = int(input())
 
-    sum_of_three_digits = calculate_sum_of_a_three_digit_number(number)
-    print(sum_of_three_digits)
+    even_number = calculate_next_even(number)
+    print(even_number)
