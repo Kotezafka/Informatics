@@ -1,6 +1,11 @@
-from theme1.theme1_n import calculate_time_on_the_clock
+from theme1.theme1_p import calculate_time_difference
 
 if __name__ == '__main__':
-    number_of_lessons_passed = int(input())
+    hour1 = int(input())
+    minute1 = int(input())
+    second1 = int(input())
+    hour2 = int(input())
+    minute2 = int(input())
+    second2 = int(input())
 
-    calculate_time_on_the_clock(number_of_lessons_passed)
+    calculate_time_difference(hour1, minute1, second1, hour2, minute2, second2)
