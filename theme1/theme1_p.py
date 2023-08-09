@@ -3,6 +3,7 @@ class Time:
         self.hour1 = hour1
         self.minute1 = minute1
         self.second1 = second1
+
         self.hour2 = hour2
         self.minute2 = minute2
         self.second2 = second2
@@ -30,6 +31,7 @@ def calculate_time_difference(hour1, minute1, second1, hour2, minute2, second2):
 hour1 = int(input())
 minute1 = int(input())
 second1 = int(input())
+
 hour2 = int(input())
 minute2 = int(input())
 second2 = int(input())

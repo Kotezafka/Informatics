@@ -1,11 +1,7 @@
-from theme1.theme1_p import calculate_time_difference
+from theme1.theme1_q import calculate_amount_of_days
 
 if __name__ == '__main__':
-    hour1 = int(input())
-    minute1 = int(input())
-    second1 = int(input())
-    hour2 = int(input())
-    minute2 = int(input())
-    second2 = int(input())
+    kilometers_in_one_day = int(input())
+    way_in_kilometers = int(input())
 
-    calculate_time_difference(hour1, minute1, second1, hour2, minute2, second2)
+    calculate_amount_of_days(kilometers_in_one_day, way_in_kilometers)
