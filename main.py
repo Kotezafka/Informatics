@@ -1,8 +1,6 @@
-from theme1.theme1_o import calculate_purchase_price
+from theme1.theme1_n import calculate_time_on_the_clock
 
 if __name__ == '__main__':
-    rubles = int(input())
-    pennies = int(input())
-    quantity = int(input())
+    number_of_lessons_passed = int(input())
 
-    calculate_purchase_price(rubles, pennies, quantity)
+    calculate_time_on_the_clock(number_of_lessons_passed)
