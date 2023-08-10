@@ -1,7 +1,7 @@
-from theme1.theme1_v import calculate_largest_number
+from theme1.theme1_r import calculate_division_of_apples
 
 if __name__ == '__main__':
-    number1 = int(input())
-    number2 = int(input())
+    students = int(input())
+    amount_of_apples = int(input())
 
-    calculate_largest_number(number1, number2)
+    calculate_division_of_apples(students, amount_of_apples)
