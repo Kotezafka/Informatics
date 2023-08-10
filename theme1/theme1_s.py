@@ -6,8 +6,7 @@ class Snail:
 
     def amount_of_days(self):
         height_before_last_climb = self.tree_height - self.climb
-        days_before_last_climb = height_before_last_climb // (self.climb - self.descent)
-        all_days = days_before_last_climb + 1
+        all_days = (height_before_last_climb - 1) // (self.climb - self.descent) + 2
 
         print(all_days)
 

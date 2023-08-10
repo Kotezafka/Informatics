@@ -1,6 +1,8 @@
-from theme1.theme1_l import calculate_time_on_the_clock
+from theme1.theme1_s import calculate_amount_of_days
 
 if __name__ == '__main__':
-    number = int(input())
+    tree_height = int(input())
+    climb = int(input())
+    descent = int(input())
 
-    calculate_time_on_the_clock(number)
+    calculate_amount_of_days(tree_height, climb, descent)
