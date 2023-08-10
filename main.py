@@ -1,7 +1,6 @@
-from theme1.theme1_u import calculate_divisibility_check
+from theme1.theme1_t import calculate_symmetrical_number
 
 if __name__ == '__main__':
-    number1 = int(input())
-    number2 = int(input())
+    number = int(input())
 
-    calculate_divisibility_check(number1, number2)
+    calculate_symmetrical_number(number)
