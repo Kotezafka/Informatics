@@ -1,7 +1,7 @@
-from theme1.theme1_q import calculate_amount_of_days
+from theme1.theme1_v import calculate_largest_number
 
 if __name__ == '__main__':
-    kilometers_in_one_day = int(input())
-    way_in_kilometers = int(input())
+    number1 = int(input())
+    number2 = int(input())
 
-    calculate_amount_of_days(kilometers_in_one_day, way_in_kilometers)
+    calculate_largest_number(number1, number2)
