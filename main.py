@@ -1,8 +1,7 @@
-from theme1.theme1_s import calculate_amount_of_days
+from theme2.theme2_a import calculate_largest_number
 
 if __name__ == '__main__':
-    tree_height = int(input())
-    climb = int(input())
-    descent = int(input())
+    number1 = int(input())
+    number2 = int(input())
 
-    calculate_amount_of_days(tree_height, climb, descent)
+    calculate_largest_number(number1, number2)
