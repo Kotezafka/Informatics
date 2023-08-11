@@ -1,8 +1,7 @@
-from theme2.theme2_u import calculate_amount_of_equals_out_of_three
+from theme2.theme2_n import calculate_equation_roots
 
 if __name__ == '__main__':
-    number1 = int(input())
-    number2 = int(input())
-    number3 = int(input())
+    a = int(input())
+    b = int(input())
 
-    calculate_amount_of_equals_out_of_three(number1, number2, number3)
+    calculate_equation_roots(a, b)
