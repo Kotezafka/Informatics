@@ -1,7 +1,6 @@
-from theme2.theme2_a import calculate_largest_number
+from theme2.theme2_b import calculate_leap_year
 
 if __name__ == '__main__':
-    number1 = int(input())
-    number2 = int(input())
+    number = int(input())
 
-    calculate_largest_number(number1, number2)
+    calculate_leap_year(number)
