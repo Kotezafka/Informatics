@@ -1,8 +1,8 @@
-from theme2.theme2_t import calculate_exists_triangle
+from theme2.theme2_u import calculate_amount_of_equals_out_of_three
 
 if __name__ == '__main__':
-    side1 = int(input())
-    side2 = int(input())
-    side3 = int(input())
+    number1 = int(input())
+    number2 = int(input())
+    number3 = int(input())
 
-    calculate_exists_triangle(side1, side2, side3)
+    calculate_amount_of_equals_out_of_three(number1, number2, number3)
