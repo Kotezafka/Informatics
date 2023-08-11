@@ -1,6 +1,6 @@
-from theme2.theme2_b import calculate_leap_year
+from theme2.theme2_d import calculate_number_sign
 
 if __name__ == '__main__':
     number = int(input())
 
-    calculate_leap_year(number)
+    calculate_number_sign(number)
