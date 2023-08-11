@@ -1,8 +1,9 @@
-from theme2.theme2_f import calculate_maximum_of_three
+from theme2.theme2_g import calculate_step
 
 if __name__ == '__main__':
-    number1 = int(input())
-    number2 = int(input())
-    number3 = int(input())
+    coordinates1 = int(input())
+    coordinates2 = int(input())
+    coordinates3 = int(input())
+    coordinates4 = int(input())
 
-    calculate_maximum_of_three(number1, number2, number3)
+    calculate_step(coordinates1, coordinates2, coordinates3, coordinates4)
