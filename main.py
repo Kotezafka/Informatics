@@ -1,9 +1,6 @@
-from theme2.theme2_k import calculate_step
+from theme2.theme2_m import calculate_amount_chips
 
 if __name__ == '__main__':
-    coordinates1 = int(input())
-    coordinates2 = int(input())
-    coordinates3 = int(input())
-    coordinates4 = int(input())
+    number_of_chips = int(input())
 
-    calculate_step(coordinates1, coordinates2, coordinates3, coordinates4)
+    calculate_amount_chips(number_of_chips)
