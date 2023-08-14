@@ -1,7 +1,9 @@
-from theme2.theme2_n import calculate_equation_roots
+from theme2.theme2_h import calculate_step
 
 if __name__ == '__main__':
-    a = int(input())
-    b = int(input())
+    coordinates1 = int(input())
+    coordinates2 = int(input())
+    coordinates3 = int(input())
+    coordinates4 = int(input())
 
-    calculate_equation_roots(a, b)
+    calculate_step(coordinates1, coordinates2, coordinates3, coordinates4)
