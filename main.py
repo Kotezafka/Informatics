@@ -1,4 +1,4 @@
-from theme2.theme2_h import calculate_step
+from theme2.theme2_i import calculate_step
 
 if __name__ == '__main__':
     coordinates1 = int(input())
