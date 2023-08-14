@@ -1,6 +1,9 @@
-from theme2.theme2_m import calculate_amount_chips
+from theme2.theme2_p import calculate_change
 
 if __name__ == '__main__':
-    number_of_chips = int(input())
+    ruble1 = int(input())
+    penny1 = int(input())
+    ruble2 = int(input())
+    penny2 = int(input())
 
-    calculate_amount_chips(number_of_chips)
+    calculate_change(ruble1, penny1, ruble2, penny2)
