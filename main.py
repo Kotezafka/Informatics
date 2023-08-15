@@ -1,9 +1,6 @@
-from theme2.theme2_p import calculate_change
+from theme2.theme2_q import calculate_purchase_opportunity
 
 if __name__ == '__main__':
-    ruble1 = int(input())
-    penny1 = int(input())
-    ruble2 = int(input())
-    penny2 = int(input())
+    ice_cream_balls = int(input())
 
-    calculate_change(ruble1, penny1, ruble2, penny2)
+    calculate_purchase_opportunity(ice_cream_balls)
