@@ -1,9 +1,8 @@
-from theme2.theme2_s import calculate_coordinate_quarters
+from theme2.theme2_v import calculate_equation_roots
 
 if __name__ == '__main__':
-    crd1 = int(input())
-    crd2 = int(input())
-    crd3 = int(input())
-    crd4 = int(input())
+    a = float(input())
+    b = float(input())
+    c = float(input())
 
-calculate_coordinate_quarters(crd1, crd2, crd3, crd4)
+calculate_equation_roots(a, b, c)
