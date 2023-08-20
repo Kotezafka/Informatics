@@ -1,9 +1,8 @@
-from theme2.theme2_o import calculate_equation_roots
+from theme2.theme2_w import calculate_triangle_exist
 
 if __name__ == '__main__':
     a = int(input())
     b = int(input())
     c = int(input())
-    d = int(input())
 
-calculate_equation_roots(a, b, c, d)
+calculate_triangle_exist(a, b, c)
