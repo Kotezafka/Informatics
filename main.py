@@ -1,8 +1,6 @@
-from theme2.theme2_w import calculate_triangle_exist
+from theme2.theme2_x import calculate_declension_of_nouns
 
 if __name__ == '__main__':
-    a = int(input())
-    b = int(input())
-    c = int(input())
+    number_of_cows = int(input())
 
-calculate_triangle_exist(a, b, c)
+calculate_declension_of_nouns(number_of_cows)
