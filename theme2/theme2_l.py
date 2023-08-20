@@ -5,7 +5,7 @@ class Chocolate:
         self.slice = slice
 
     def break_off_the_slices(self):
-        if self.slice % self.length == 0 or self.slice % self.width == 0:
+        if (self.slice % self.length == 0 or self.slice % self.width == 0) and self.length * self.width >= self.slice:
             print('YES')
         else:
             print('NO')

@@ -1,8 +1,8 @@
-from theme2.theme2_v import calculate_equation_roots
+from theme2.theme2_l import calculate_break_off_the_slices
 
 if __name__ == '__main__':
-    a = float(input())
-    b = float(input())
-    c = float(input())
+    length = int(input())
+    width = int(input())
+    slice = int(input())
 
-calculate_equation_roots(a, b, c)
+calculate_break_off_the_slices(length, width, slice)
