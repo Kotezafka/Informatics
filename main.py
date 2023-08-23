@@ -1,7 +1,7 @@
-from theme3.operator_for.sums_and_products.theme3_d import calculate_number_of_ways_to_choose_K_from_N_different_items
+from theme3.operator_for.sums_and_products.theme3_e import calculate_sum_geometric_progression
 
 if __name__ == '__main__':
+    a = float(input())
     n = int(input())
-    k = int(input())
 
-    calculate_number_of_ways_to_choose_K_from_N_different_items(n, k)
+    calculate_sum_geometric_progression(a, n)
