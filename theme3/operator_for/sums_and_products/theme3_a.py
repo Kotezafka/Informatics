@@ -5,16 +5,16 @@ class Number:
     def sum(self):
         sum = 0
         for i in range(1, self.n + 1):
-            sum += i ** 2
-        print(sum)
+            sum += i**2
+        return sum
 
 
 def calculate_sum(n):
     num = Number(n)
-
-    num.sum()
+    return num.sum()
 
 
 n = int(input())
 
-calculate_sum(n)
+r = calculate_sum(n)
+print(r)
