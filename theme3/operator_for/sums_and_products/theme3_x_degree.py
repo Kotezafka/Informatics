@@ -4,9 +4,9 @@ class Number:
         self.n = n
 
     def degree(self):
-        deg = 0
-        for i in range(0, self.n + 1):
-            deg = self.a ** i
+        deg = 1
+        for i in range(1, self.n + 1):
+            deg *= self.a
         print(deg)
 
 
