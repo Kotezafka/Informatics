@@ -1,6 +1,6 @@
-from theme3.operator_for.sums_and_products.theme3_h import calculate_sum_of_powers
+from theme3.operator_for.sums_and_products.theme3_x_fact import calculate_factorial
 
 if __name__ == '__main__':
     n = int(input())
 
-    calculate_sum_of_powers(n)
+    calculate_factorial(n)
