@@ -1,9 +1,6 @@
-from theme3.operator_for.task_conditions.theme3_b import calculate_remainder
+from theme3.operator_for.sums_and_products.theme3_h import calculate_sum_of_powers
 
 if __name__ == '__main__':
-    a = int(input())
-    b = int(input())
-    c = int(input())
-    d = int(input())
+    n = int(input())
 
-    calculate_remainder(a, b, c, d)
+    calculate_sum_of_powers(n)

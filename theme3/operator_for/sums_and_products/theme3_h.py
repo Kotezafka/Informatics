@@ -3,9 +3,11 @@ class Number:
         self.n = n
 
     def sum_of_powers(self):
+        a = 1
         sum = 0
         for i in range(0, self.n + 1):
-            sum += 2 ** i
+            sum += a
+            a *= 2
         print(sum)
 
 
