@@ -1,7 +1,7 @@
-from theme3.operator_for.sums_and_products.theme3_x_degree import calculate_degree
+from theme3.operator_for.task_conditions.theme3_a import find_even_numbers
 
 if __name__ == '__main__':
-    a = float(input())
-    n = int(input())
+    a = int(input())
+    b = int(input())
 
-    calculate_degree(a, n)
+    find_even_numbers(a, b)
