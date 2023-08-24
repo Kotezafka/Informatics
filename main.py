@@ -1,7 +1,6 @@
-from theme3.operator_for.task_conditions.theme3_g import calculate_min_divisor
+from theme3.operator_for.task_conditions.theme3_h import calculate_number_divisors
 
 if __name__ == '__main__':
     x = int(input())
 
-    n = calculate_min_divisor(x)
-    print(n)
+    calculate_number_divisors(x)
