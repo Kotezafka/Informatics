@@ -1,8 +1,7 @@
-from theme3.operator_for.task_conditions.theme3_х_digit_in_number import calculate_digit_in_number
+from theme3.operator_for.task_conditions.theme3_х_sum_digits import calculate_sum_of_digits
 
 if __name__ == '__main__':
     x = int(input())
-    d = int(input())
 
-    n = calculate_digit_in_number(x, d)
+    n = calculate_sum_of_digits(x)
     print(n)
