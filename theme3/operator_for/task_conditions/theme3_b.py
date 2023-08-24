@@ -6,9 +6,8 @@ class Number:
         self.d = d
 
     def remainder(self):
-        for i in range(self.a, self.b + 1):
-            if i % self.d == self.c:
-                print(i, end = ' ')
+        for i in range(self.a + (self.c - (self.a % self.d)), self.b + 1, self.d):
+            print(i, end=' ')
 
 
 def calculate_remainder(a, b, c, d):

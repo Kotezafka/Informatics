@@ -1,7 +1,8 @@
-from theme3.operator_for.sums_and_products.theme3_x_degree import calculate_degree
+from theme3.operator_for.task_conditions.theme3_х_digit_in_number import calculate_digit_in_number
 
 if __name__ == '__main__':
-    a = float(input())
-    n = int(input())
+    x = int(input())
+    d = int(input())
 
-    calculate_degree(a, n)
+    n = calculate_digit_in_number(x, d)
+    print(n)

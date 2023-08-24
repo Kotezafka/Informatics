@@ -5,9 +5,9 @@ class Number:
     def sum(self):
         sum = 1
         fact = 1
-        for i in range(1, self.n + 1):
-            fact *= i
+        for i in range(2, self.n + 2):
             sum += 1 / fact
+            fact *= i
         print(sum)
 
 
