@@ -30,4 +30,3 @@ def calculate_counting_numbers(n):
 n = int(input())
 
 calculate_counting_numbers(n)
-
