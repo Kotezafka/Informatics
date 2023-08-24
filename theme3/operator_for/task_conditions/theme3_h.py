@@ -3,10 +3,11 @@ class Number:
         self.x = x
 
     def number_divisors(self):
-        for i in range(1, self.x + 1):
+        for i in range(1, (self.x // 2) + 1):
             if self.x % i == 0:
                 print(i, end=' ')
             i += 1
+        print(self.x)
 
 
 def calculate_number_divisors(x):

@@ -1,6 +1,6 @@
-from theme3.operator_for.task_conditions.theme3_o import calculate_zero
+from theme3.operator_for.task_conditions.theme3_h import calculate_number_divisors
 
 if __name__ == '__main__':
-    n = int(input())
+    x = int(input())
 
-    calculate_zero(n)
+    calculate_number_divisors(x)
