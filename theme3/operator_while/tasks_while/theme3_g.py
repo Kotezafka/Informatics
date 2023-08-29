@@ -5,12 +5,12 @@ class Number:
         self.y = y
 
     def number_of_years(self):
+        self.x = self.x * 100
+        self.y = self.y * 100
+        self.p = self.p + 100
         year = 0
-        sum = self.x
-        while sum < self.y:
-            sum += sum * (self.p * 0.01)
-            if sum % 1 != 0:
-                sum = sum // 1
+        while self.x < self.y:
+            self.x = (self.x * self.p) // 100
             year += 1
         print(year)
 
