@@ -1,6 +1,6 @@
-from theme3.operator_while.tasks_while.theme3_a import calculate_square_number
+from theme3.operator_while.tasks_while.theme3_c import calculate_powers_of_two
 
 if __name__ == '__main__':
     n = int(input())
 
-    calculate_square_number(n)
+    calculate_powers_of_two(n)
