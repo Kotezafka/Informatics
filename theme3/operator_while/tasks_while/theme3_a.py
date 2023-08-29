@@ -3,13 +3,11 @@ class Number:
         self.n = n
 
     def square_number(self):
-        t = 1
-        while t <= self.n:
-            for i in range(1, int(t**0.5) + 1):
-                if t != int(i) * int(i):
-                    t += 1
-                elif t == int(i) * int(i):
-                    print(t, end=' ')
+        i = 1
+        t = self.n ** 0.5
+        while i <= t:
+            print(i ** 2)
+            i += 1
 
 
 def calculate_square_number(n):
