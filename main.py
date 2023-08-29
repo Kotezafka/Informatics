@@ -1,6 +1,6 @@
-from theme3.operator_while.tasks_while.theme3_d import calculate_powers_two
+from theme3.operator_while.tasks_while.theme3_e import calculate_binary_log
 
 if __name__ == '__main__':
     n = int(input())
 
-    calculate_powers_two(n)
+    calculate_binary_log(n)
