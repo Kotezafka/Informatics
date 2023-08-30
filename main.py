@@ -1,4 +1,4 @@
-from theme3.operator_while.tasks_processing_operations.theme3_c import average_value_sequence
+from theme3.operator_while.tasks_processing_operations.theme3_d import number_of_even_elements
 
 if __name__ == '__main__':
-    average_value_sequence()
+    number_of_even_elements()
