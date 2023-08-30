@@ -1,7 +1,6 @@
-from theme3.operator_while.tasks_while.theme3_j import find_algorithm
+from theme3.operator_while.tasks_while.theme3_h import calculate_fibonacci_number
 
 if __name__ == '__main__':
-    a = int(input())
-    b = int(input())
+    n = int(input())
 
-    find_algorithm(a, b)
+    calculate_fibonacci_number(n)
