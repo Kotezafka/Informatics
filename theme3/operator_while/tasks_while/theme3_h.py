@@ -4,19 +4,19 @@ class Number:
 
     def fibonacci_number(self):
         i = 1
-        k0 = 0
-        k1 = 1
+        f0 = 0
+        f1 = 1
         f = 0
         if self.n == 1:
-            return k0 + k1
+            return f0 + f1
 
         while i < self.n:
-            f = k0 + k1
+            f = f0 + f1
 
             if i % 2 != 0:
-                k0 = f
+                f0 = f
             else:
-                k1 = f
+                f1 = f
             i += 1
         return f
 
