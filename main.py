@@ -1,4 +1,4 @@
-from theme3.operator_while.tasks_processing_operations.theme3_d import number_of_even_elements
+from theme3.operator_while.tasks_processing_operations.theme3_e import max_sequence
 
 if __name__ == '__main__':
-    number_of_even_elements()
+    max_sequence()
