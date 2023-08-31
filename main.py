@@ -1,4 +1,4 @@
-from theme3.operator_while.tasks_processing_operations.theme3_e import max_sequence
+from theme3.operator_while.tasks_processing_operations.theme3_f import amount_elements_bigger_than_previous
 
 if __name__ == '__main__':
-    max_sequence()
+    amount_elements_bigger_than_previous()
