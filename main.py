@@ -1,4 +1,4 @@
-from theme3.operator_while.tasks_processing_operations.theme3_f import amount_elements_bigger_than_previous
+from theme3.operator_while.tasks_processing_operations.theme3_g import second_numbers
 
 if __name__ == '__main__':
-    amount_elements_bigger_than_previous()
+    second_numbers()
