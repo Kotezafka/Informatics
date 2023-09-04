@@ -1,6 +1,6 @@
-from theme3.operator_while.tasks_digit_analysis.theme3_a import calculate_sum_digits_of_number
+from theme3.operator_while.tasks_digit_analysis.theme3_b import calculate_amount_of_zeros
 
 if __name__ == '__main__':
     n = int(input())
 
-    calculate_sum_digits_of_number(n)
+    calculate_amount_of_zeros(n)
