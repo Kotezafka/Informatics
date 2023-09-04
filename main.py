@@ -1,4 +1,6 @@
-from theme3.operator_while.tasks_processing_operations.theme3_i import number_of_max_elements
+from theme3.operator_while.tasks_digit_analysis.theme3_a import calculate_sum_digits_of_number
 
 if __name__ == '__main__':
-    number_of_max_elements()
+    n = int(input())
+
+    calculate_sum_digits_of_number(n)
