@@ -1,7 +1,8 @@
-from theme3.operator_while.tasks_digit_analysis.theme3_f import calculate_number_of_palindromes
+from theme4.whole_numbers.theme4_a import calculate_max_number_of_rabbits
 
 if __name__ == '__main__':
     n = int(input())
+    m = int(input())
 
-    a = calculate_number_of_palindromes(n)
+    a = calculate_max_number_of_rabbits(n, m)
     print(a)
