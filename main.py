@@ -1,7 +1,7 @@
-from theme3.operator_while.tasks_digit_analysis.theme3_d import find_binary_notation_of_number
+from theme3.operator_while.tasks_digit_analysis.theme3_e import calculate_number_inversion
 
 if __name__ == '__main__':
     n = int(input())
 
-    a = find_binary_notation_of_number(n)
+    a = calculate_number_inversion(n)
     print(a)
