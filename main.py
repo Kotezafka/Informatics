@@ -1,6 +1,7 @@
-from theme3.operator_while.tasks_digit_analysis.theme3_c import calculate_min_and_max_numbers
+from theme3.operator_while.tasks_digit_analysis.theme3_d import find_binary_notation_of_number
 
 if __name__ == '__main__':
     n = int(input())
 
-    calculate_min_and_max_numbers(n)
+    a = find_binary_notation_of_number(n)
+    print(a)
