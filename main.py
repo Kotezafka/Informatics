@@ -1,8 +1,6 @@
-from theme4.whole_numbers.theme4_a import calculate_max_number_of_rabbits
+from theme4.whole_numbers.theme4_c import calculate_hours_and_minutes
 
 if __name__ == '__main__':
-    n = int(input())
-    m = int(input())
+    k = int(input())
 
-    a = calculate_max_number_of_rabbits(n, m)
-    print(a)
+    calculate_hours_and_minutes(k)
