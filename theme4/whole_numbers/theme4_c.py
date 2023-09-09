@@ -13,6 +13,7 @@ class Time:
             minutes = self.k // 60
         print('It is', hours, 'hours', minutes, 'minutes.')
 
+
 def calculate_hours_and_minutes(k):
     num = Time(k)
 
