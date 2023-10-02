@@ -1,6 +1,7 @@
-from theme4.whole_numbers.theme4_d import calculate_hours_and_minutes
+from theme5.onedimensional_arrays.task_conditions.theme5_b import calculate_output_even_elements
 
 if __name__ == '__main__':
-    d = int(input())
+    n = int(input())
+    A = list(map(int, input().split()))
 
-    calculate_hours_and_minutes(d)
+    calculate_output_even_elements(n)
