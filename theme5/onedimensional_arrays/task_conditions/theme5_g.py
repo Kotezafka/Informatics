@@ -19,4 +19,3 @@ n = int(input())
 A = list(map(int, input().split()))
 
 calculate_array_elements_reverse_order(n)
-
