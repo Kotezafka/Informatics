@@ -1,7 +1,7 @@
-from theme5.onedimensional_arrays.task_conditions.theme5_f import calculate_number_elements_larger_both_neighboring
+from theme5.onedimensional_arrays.task_conditions.theme5_g import calculate_array_elements_reverse_order
 
 if __name__ == '__main__':
     n = int(input())
     A = list(map(int, input().split()))
 
-    calculate_number_elements_larger_both_neighboring(n)
+    calculate_array_elements_reverse_order(n)
