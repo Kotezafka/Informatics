@@ -1,8 +1,6 @@
-from theme5.onedimensional_arrays.task_conditions.theme5_l import calculate_line
+from theme5.onedimensional_arrays.task_conditions_python.theme5_a import calculate_output_even_array_elements
 
 if __name__ == '__main__':
-    number_of_students = int(input())
     A = list(map(int, input().split()))
-    height = int(input())
 
-    calculate_line(number_of_students, height)
+    calculate_output_even_array_elements(A)
