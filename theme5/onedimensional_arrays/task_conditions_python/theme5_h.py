@@ -1,15 +1,18 @@
-def smallest_positive_element(A):
-    min_positive_element = 1000
-    for i in range(1, len(A)):
-        if (A[i] < min_positive_element) and (A[i] > 0):
-            min_positive_element = A[i]
+from typing import List
+
+
+def smallest_positive_element(arr: List[int]):
+    min_positive_element: int = 1000
+    for i in range(0, len(arr)):
+        if (arr[i] < min_positive_element) and (arr[i] > 0):
+            min_positive_element = arr[i]
     print(min_positive_element)
 
 
-def calculate_smallest_positive_element(A):
-    return smallest_positive_element(A)
+def calculate_smallest_positive_element(arr: List[int]):
+    return smallest_positive_element(arr)
 
 
-A = list(map(int, input().split()))
+arr = list(map(int, input().split()))
 
-calculate_smallest_positive_element(A)
+calculate_smallest_positive_element(arr)
