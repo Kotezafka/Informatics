@@ -1,7 +1,8 @@
-from theme5.onedimensional_arrays.task_conditions.theme5_k import calculate_amount_different_elements
+from theme5.onedimensional_arrays.task_conditions.theme5_l import calculate_line
 
 if __name__ == '__main__':
-    n = int(input())
+    number_of_students = int(input())
     A = list(map(int, input().split()))
+    height = int(input())
 
-    calculate_amount_different_elements(n)
+    calculate_line(number_of_students, height)
