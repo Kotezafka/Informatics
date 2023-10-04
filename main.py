@@ -1,6 +1,6 @@
-from theme5.onedimensional_arrays.task_conditions_python.theme5_c import calculate_amount_positive_elements
+from theme5.onedimensional_arrays.task_conditions_python.theme5_d import calculate_element_that_larger_previous
 
 if __name__ == '__main__':
     A = list(map(int, input().split()))
 
-    calculate_amount_positive_elements(A)
+    calculate_element_that_larger_previous(A)
