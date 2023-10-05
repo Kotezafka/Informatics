@@ -1,6 +1,7 @@
-from theme5.onedimensional_arrays.task_conditions_python.theme5_h import calculate_smallest_positive_element
+from theme5.onedimensional_arrays.task_conditions_python.theme5_j import calculate_line
 
 if __name__ == '__main__':
-    A = list(map(int, input().split()))
+    arr = list(map(int, input().split()))
+    height = int(input())
 
-    calculate_smallest_positive_element(A)
+    calculate_line(arr)
