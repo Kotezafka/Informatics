@@ -1,6 +1,8 @@
-from theme5.onedimensional_arrays.task_conditions_python.theme5_w import calculate_list_compression
+from theme5.onedimensional_arrays.task_conditions_python.theme5_x import calculate_bowling
 
 if __name__ == '__main__':
-    arr = list(map(int, input().split()))
+    s = (input()).split()
+    N = int(s[0])
+    K = int(s[1])
 
-    calculate_list_compression(arr)
+    calculate_bowling(N, K)
