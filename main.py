@@ -1,8 +1,8 @@
-from theme5.onedimensional_arrays.task_conditions_python.theme5_x import calculate_bowling
+from theme5.onedimensional_arrays.task_conditions.theme5_n import calculate_shift_by_k_elements
 
 if __name__ == '__main__':
-    s = (input()).split()
-    N = int(s[0])
-    K = int(s[1])
+    n = int(input())
+    A = list(map(int, input().split()))
+    k = int(input())
 
-    calculate_bowling(N, K)
+    calculate_shift_by_k_elements(n, A, k)

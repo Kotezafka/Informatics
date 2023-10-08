@@ -1,7 +1,8 @@
 def shift_by_k_elements(n, A, k):
-    if k >= 0:
+    k = k % n
+    if k > 0:
         A = A[-k:] + A[0:n-k]
-    else:
+    elif k < 0:
         A = A[-abs(k)+1:] + A[0:abs(k)]
     print(' '.join(str(a) for a in A))
 
