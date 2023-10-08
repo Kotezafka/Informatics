@@ -2,9 +2,10 @@ from typing import List
 
 
 def shift_by_k_elements(arr: List[int], k: int) -> str:
+    k = k % len(arr)
     if k > 0:
-        arr = arr[-k:] + arr[0:k-1]
-    else:
+        arr = arr[-k:] + arr[0:len(arr)-k]
+    elif k < 0:
         arr = arr[-abs(k)+1:] + arr[0:abs(k)]
     return ' '.join([str(a) for a in arr])
 
