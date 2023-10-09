@@ -1,6 +1,6 @@
-from theme5.onedimensional_arrays.task_conditions_python.theme5_n import calculate_rearrangement_of_adjacent_elements
+from theme5.onedimensional_arrays.task_conditions_python.theme5_s import calculate_amount_identical_pairs
 
 if __name__ == '__main__':
     arr = list(map(int, input().split()))
 
-    calculate_rearrangement_of_adjacent_elements(arr)
+    calculate_amount_identical_pairs(arr)
