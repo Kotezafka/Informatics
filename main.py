@@ -1,7 +1,6 @@
-from theme5.onedimensional_arrays.task_conditions_python.theme5_z import calculate_shift_by_k_elements
+from theme5.onedimensional_arrays.task_conditions_python.theme5_l import calculate_output_in_reverse_order
 
 if __name__ == '__main__':
     arr = list(map(int, input().split()))
-    k = int(input())
 
-    calculate_shift_by_k_elements(arr, k)
+    calculate_output_in_reverse_order(arr)
