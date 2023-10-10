@@ -1,6 +1,6 @@
-from theme5.onedimensional_arrays.task_conditions_python.theme5_s import calculate_amount_identical_pairs
+from theme5.twodimensional_multidimensional_arrays.task_conditions.theme5_a import calculate_side_diagonal
 
 if __name__ == '__main__':
-    arr = list(map(int, input().split()))
+    n = int(input())
 
-    calculate_amount_identical_pairs(arr)
+    calculate_side_diagonal(n)
