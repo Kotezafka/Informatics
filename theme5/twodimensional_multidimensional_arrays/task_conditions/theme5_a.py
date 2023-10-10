@@ -1,4 +1,7 @@
-def side_diagonal(n: int) -> list:
+from typing import List
+
+
+def side_diagonal(n: int) -> List:
     arr = []
     for i in range(n):
         arr.append([0] * n)
@@ -23,7 +26,6 @@ def calculate_side_diagonal(n: int) -> None:
     #     for j in range(n):
     #         print(new_arr[i][j], end=' ')
     #     print('')
-
 
 
 n = int(input())
